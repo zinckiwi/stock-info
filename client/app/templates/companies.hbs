@@ -8,7 +8,7 @@
 		<ul class='list-unstyled'>
 			{{#each company in model}}
 				<li>
-					{{#link-to 'company' company.id}}{{company.longName}}{{/link-to}}
+					{{#link-to 'company' company.id}}{{{company.longName}}}{{/link-to}}
 				</li>
 			{{/each}}
 		</ul>
